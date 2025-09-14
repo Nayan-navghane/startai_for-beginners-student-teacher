@@ -1,30 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Student - EduAI</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+<html><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 </head>
-<body class="bg-slate-50 font-sans">
-  <header class="flex items-center justify-between border-b px-10 py-4 bg-white shadow">
-    <h1 class="text-2xl font-bold text-blue-600">EduAI</h1>
-    <nav class="flex gap-6">
-      <a href="index.html" class="text-slate-700 hover:text-blue-600">Home</a>
-      <a href="beginner.html" class="text-slate-700 hover:text-blue-600">For Beginner</a>
-      <a href="student.html" class="text-slate-700 hover:text-blue-600 font-bold">For Student</a>
-      <a href="teacher.html" class="text-slate-700 hover:text-blue-600">For Teacher</a>
-    </nav>
-  </header>
+<body class="bg-slate-50" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+<div class="flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 px-10 py-4">
+<div class="flex items-center gap-4 text-slate-900">
+<svg class="h-8 w-8 text-[#1380ec]" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h2 class="text-xl font-bold tracking-tight text-slate-900">AI Tutor</h2>
+</div>
+<nav class="hidden items-center gap-8 lg:flex">
+<a class="text-sm font-medium text-slate-700 hover:text-[#1380ec]" href="#">Home</a>
+<a class="text-sm font-medium text-[#1380ec]" href="#">AI for Students</a>
+<a class="text-sm font-medium text-slate-700 hover:text-[#1380ec]" href="#">AI for Teachers</a>
+<a class="text-sm font-medium text-slate-700 hover:text-[#1380ec]" href="#">Pricing</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="flex h-10 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md bg-[#1380ec] px-4 text-sm font-bold text-slate-50 shadow-sm transition-all hover:bg-sky-600">
+<span class="truncate">Get Started</span>
+</button>
+<button class="p-2 lg:hidden">
+<span class="material-symbols-outlined text-slate-700">menu</span>
+</button>
+</div>
+</header>
+<main class="flex flex-1 justify-center py-16 sm:py-20 lg:py-24">
+<div class="w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col items-center text-center">
+<h1 class="text-4xl font-bold tracking-tighter text-slate-900 sm:text-5xl lg:text-6xl">Supercharge Your Studies with AI</h1>
+<p class="mt-4 max-w-2xl text-lg text-slate-600">Unlock your academic potential with AI-powered tools designed to help you learn smarter, not harder.</p>
+</div>
+<div class="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-sky-100 text-sky-500">
+<span class="material-symbols-outlined">help</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Ask Questions</h3>
+<p class="mt-1 text-slate-600">Get instant answers to your questions across any subject.</p>
+</div>
+</div>
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-sky-100 text-sky-500">
+<span class="material-symbols-outlined">edit_document</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Get Writing Help</h3>
+<p class="mt-1 text-slate-600">Improve your essays and reports with AI-powered writing assistance.</p>
+</div>
+</div>
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-sky-100 text-sky-500">
+<span class="material-symbols-outlined">slideshow</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Prepare for Presentations</h3>
+<p class="mt-1 text-slate-600">Create compelling presentations with AI-generated content and visuals.</p>
+</div>
+</div>
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 text-teal-500">
+<span class="material-symbols-outlined">search</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Search for Information</h3>
+<p class="mt-1 text-slate-600">Quickly find relevant information from a vast database of academic resources.</p>
+</div>
+</div>
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 text-teal-500">
+<span class="material-symbols-outlined">summarize</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Summarize Texts</h3>
+<p class="mt-1 text-slate-600">Condense lengthy articles and chapters into concise summaries.</p>
+</div>
+</div>
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-100 text-teal-500">
+<span class="material-symbols-outlined">lightbulb</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Generate Ideas</h3>
+<p class="mt-1 text-slate-600">Brainstorm new ideas and approaches for your projects and assignments.</p>
+</div>
+</div>
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-indigo-100 text-indigo-500">
+<span class="material-symbols-outlined">event</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Manage Your Schedule</h3>
+<p class="mt-1 text-slate-600">Organize your study sessions, assignments, and exams with an AI-powered calendar.</p>
+</div>
+</div>
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-indigo-100 text-indigo-500">
+<span class="material-symbols-outlined">translate</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Translate Documents</h3>
+<p class="mt-1 text-slate-600">Translate research papers, articles, and other documents into your preferred language.</p>
+</div>
+</div>
+<div class="rounded-xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-indigo-100 text-indigo-500">
+<span class="material-symbols-outlined">code</span>
+</div>
+<div class="mt-4">
+<h3 class="text-lg font-bold text-slate-900">Learn Coding Basics</h3>
+<p class="mt-1 text-slate-600">Get started with coding using AI-generated examples and tutorials.</p>
+</div>
+</div>
+</div>
+<div class="mt-16 flex justify-center">
+<button class="flex h-12 min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-md bg-[#1380ec] px-6 text-base font-bold text-slate-50 shadow-lg transition-all hover:bg-sky-600">
+<span class="truncate">Start Learning Now</span>
+</button>
+</div>
+</div>
+</main>
+<footer class="bg-slate-100 py-10">
+<div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
+<div class="flex flex-wrap justify-center gap-x-6 gap-y-4">
+<a class="text-sm text-slate-600 hover:text-[#1380ec]" href="#">Terms of Service</a>
+<a class="text-sm text-slate-600 hover:text-[#1380ec]" href="#">Privacy Policy</a>
+<a class="text-sm text-slate-600 hover:text-[#1380ec]" href="#">Contact Us</a>
+</div>
+<p class="text-sm text-slate-600">© 2024 AI Tutor. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
 
-  <main class="px-6 py-12 text-center">
-    <h2 class="text-3xl font-bold text-slate-900">Welcome Students!</h2>
-    <p class="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
-      Here you can explore AI tools and resources that make studying easier and more fun. 
-      From personalized learning apps to AI-powered quizzes, we’ve got everything to support your academic journey.
-    </p>
-    <img src="https://via.placeholder.com/600x300.png?text=Student+AI+Tools" 
-         alt="Student AI" class="mt-8 mx-auto rounded-lg shadow-lg" />
-  </main>
-</body>
-</html>
+</body></html>
